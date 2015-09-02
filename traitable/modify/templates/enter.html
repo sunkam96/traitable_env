@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+
+    {% block sidebar %}
+      
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+            <ul class="nav">
+              <li><a href="http://localhost:8000/modify/enter/individual">Enter By Fields</a></li>
+              <li><a href="http://localhost:8000/modify/enter/upload">Upload Records</a></li>
+             
+            </ul>
+        </div>
+        
+    {% endblock %}
+  
+  {% block content %}
+  
+            <h1>Enter records</h1>
+			<p>Two view options listed in left sidebar. User can either enter fields manually, or upload
+			a properly formatted csv.</p>
+  {% endblock %}

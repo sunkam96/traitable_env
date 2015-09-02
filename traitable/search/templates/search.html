@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+        {% block sidebar %}
+      
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+            <ul class="nav list-group">
+              <li><input type="checkbox"> Search </li>
+              <li><input type="checkbox"> Criterion1 </li>
+              <li><input type="checkbox"> Criterion2 </li>
+              <li><input type="checkbox"> Submenu </li>
+              <li><input type="checkbox"> Customize </li>
+              <li><input type="checkbox"> As </li>
+              <li><input type="checkbox"> Needed </li>
+             
+            </ul>
+        </div>
+        
+        {% endblock %}
+        
+        {% block content %}
+         <h1>Searching platform</h1>
+		 
+            <p>
+                Full search features to be added. Searchable by criterion, and filterable using sidebar menu options.
+                Will most probably use haystack search. Functionality coming soon.
+            </p>
+            
+        {% endblock %}
